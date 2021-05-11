@@ -1,0 +1,26 @@
+body {
+	background: url(./images/fantasy.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+nav {
+	margin: auto;
+	background-color: #aaa;
+
+}
+ a {
+ 	margin: auto; 
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+
+
+}
+li {
+	margin: auto;
+	margin-right: 30px;
+	text-align: left;
+	display: inline-block;
+	
+}

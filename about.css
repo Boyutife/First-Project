@@ -1,0 +1,45 @@
+body {
+	background: linear-gradient(to right top,#b7b5b5,#3f7b84);
+	margin: 0;
+
+}
+
+header {
+	background: #b7b5b5;
+	width: 100%;
+}
+
+main 
+
+p {
+	font-family: 'Nunito Semibold';
+}
+
+nav {
+	display: flex;
+	margin-left: 60rem;
+}
+
+li {
+	margin: 30px;
+	list-style-type: none;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); 
+	grid-template-rows: minmax(400px,auto);
+	max-width: 980px;
+	margin: 0 auto;
+	grid-gap: 40px;
+}
