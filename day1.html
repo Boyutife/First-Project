@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Author" content="Iamboluwatife">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey html</title>
+</head>
+<body style="background-color:#0009; height: 90vh; width: auto; ; display: flex; flex-direction: column; align-items: center; justify-content: center; ">
+	<header>
+		<h1 style="color: #fff; margin-bottom: 20px;" align="center" >Survey Form</h1>
+	</header>
+	<main style="background-color: #fff7; height: 90%; width: 80%" >
+		<h2 style="text-align: center; margin: 10px;">Let us know how we can improve our site</h2>
+		<form style="display: flex; flex-direction: column; justify-content: space-evenly;" >
+			<div style="text-align: center; margin-top: 30px;" class="username">
+				<label for="name"><b>Name</b></label>
+				<input type="text" name="name" value="Enter Your Name">
+			</div>
+			<div style="text-align: center; margin-top: 20px; " class="Email">
+				<label for="email" ><b>Email</b></label>
+				<input type="text" name="email" value="Enter Your Email">
+			</div>
+			<div style="text-align: center; margin: 20px;" class="age">
+				<label for="age"><b>Age</b></label>
+				<input type="number" name="age" value="Enter Your Age">
+			</div>
+			<div class="role" style=" margin: 20px 0px 20px 230px;  ">
+				<label for="current-role"><b>which option best describes your current role ?</b></label>
+				<select id="current-role">
+					<option value="Student" selected="Student">Student</option>
+					<option value="parent">Parent</option>
+					<option value="staff">Staff</option>
+					<option value="amin">Admin</option>
+				</select>
+			</div>
+			<div class="recommendation" style="  margin: 20px 0px 20px 110px;   display: flex;">
+				<p><b>How likely is it that you would recommend our site to a friend ? </b></p><br>
+				<ul>
+					<input type="radio" name="definately">
+					<label for="definately"><b>Definately</b></label><br>
+					<input type="radio" name="maybe">
+					<label for="maybe"><b>Maybe</b></label><br>
+					<input type="radio" name="not-sure">
+					<label for="not-sure"><b>Not-sure</b></label>
+
+				</ul>
+			</div>
+			<div class="likeable" style="margin: 20px 0px 20px 280px;">
+				<label for="like"><b>what do you like the most in our site ?</b></label>
+				<select id="like">
+					<option value="Select an option" selected="">select an option</option>
+					<option value="response">Customer Care</option>
+					<option value="services">service</option>
+				</select>
+			</div>
+			<div class="check" style="margin: 20px 0px 20px 230px;  display: flex;">
+				<p><b>Things that should be improved in the future   <br> (check all that apply) ; </b></p>
+				<ul style="list-style: none;"> 
+						<li><input type="checkbox" name="front-end">
+						<label for="front-end"><b>Front-end projects</b></label></li>
+						<li><input type="checkbox" name="back-end">
+						<label for="back-end"><b>Back-end Projects</b></label></li>
+						<li><input type="checkbox" name="Data">
+						<label for="Data"><b>Data Visualization</b></label></li>
+					</ul> 
+				
+			</div>
+			<div class="submit" style=" display: flex; align-items: center;justify-content: center; margin: 50px">
+				<input type="submit" name="submit">
+			</div>
+		</form>
+	</main>
+	
+
+</body>
+</html>
